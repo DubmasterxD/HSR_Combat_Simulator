@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e7a2189c79256468c04499a190e7ae, type: 3}
+  m_Name: SeeleTraces
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  effectID: 
+  duration: -1
+  turnsLeft: -1
+  reduceDurationOnTurnStart: 0
+  removeOnTurnStart: 0
+  maxStacks: 1
+  currentStacks: 1
+  HPBoost: 0
+  flatHP: 0
+  DefBoost: 0.125
+  flatDef: 0
+  AtkBoost: 0.28
+  flatAtk: 0
+  spdBoost: 0
+  flatSpd: 0
+  critRate: 0
+  critDmg: 0.24
+  breakEffect: 0
+  effectHitRate: 0
+  effectRes: 0
+  energyRegen: 0
+  resBoost: 0
+  resBoostElement: 0
+  resPenBoost: 0
+  resPenBoostElement: 0
+  typeDmgBoost: 0
+  dmgBoostType: 0
+  elementalDmgBoost: 0
+  dmgBoostElement: 0
+  typeDmgTaken: 0
+  dmgTakenType: 0
+  elementalDmgTaken: 0
+  dmgTakenElement: 0
+  dmgMitigation: 0
+  weakenBoost: 0
+  actionAdvance: 0

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4801175317562883261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3817408730983157742}
+  - component: {fileID: -2924502419211008460}
+  m_Layer: 5
+  m_Name: Sparkle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3817408730983157742
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801175317562883261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &-2924502419211008460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801175317562883261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30330f075133b104186b4d2470136c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCharacter: 1
+  displayName: Sparkle
+  characterElement: 32
+  eidolon: 2
+  equippedLCPrefab: {fileID: 3604577312495308746, guid: d0485cb7d1ff3c349868397439161bfb, type: 3}
+  baseHP: 1397.09
+  baseDef: 485.1
+  baseAtk: 523.91
+  baseSpd: 101
+  baseCritDmg: 0.5
+  baseCritRate: 0.05
+  maxEnergy: 110
+  minorTraces: {fileID: 11400000, guid: 703cef06379766448aa8deef6c660085, type: 2}
+  artifactsStats: {fileID: 11400000, guid: 8302661803e56514e80c814875278b69, type: 2}
+  artifactsSet1: {fileID: 0}
+  artifactsSet2: {fileID: 0}
+  artifactsSet3: {fileID: 0}
+  useTechnique: 1
+  currentAV: 0
+  isWeaknessBroken: 0
+  skillEffect: {fileID: 11400000, guid: 5b3eda705df40244cbe9c2b8f1df6816, type: 2}
+  basicScaling: 1

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4801175317562883261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3817408730983157742}
+  - component: {fileID: 2868727891587175425}
+  m_Layer: 5
+  m_Name: Seele
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3817408730983157742
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801175317562883261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2868727891587175425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801175317562883261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f557f6f8aa4bac54b94241af14898d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCharacter: 1
+  displayName: Seele
+  characterElement: 32
+  eidolon: 0
+  equippedLCPrefab: {fileID: -7599610302668533479, guid: 36c7074b251bcd4438acefb79112df3a, type: 3}
+  baseHP: 931
+  baseDef: 363.83
+  baseAtk: 640.33
+  baseSpd: 115
+  baseCritDmg: 0.5
+  baseCritRate: 0.05
+  maxEnergy: 120
+  minorTraces: {fileID: 11400000, guid: 8c07c98823603b34fb3e7e2bec2b98a3, type: 2}
+  artifactsStats: {fileID: 11400000, guid: c76005add0f4ddb45b4d01072fbf3ef4, type: 2}
+  artifactsSet1: {fileID: 0}
+  artifactsSet2: {fileID: 0}
+  artifactsSet3: {fileID: 0}
+  useTechnique: 1
+  currentAV: 0
+  isWeaknessBroken: 0
+  basicEffectPrefab: {fileID: 11400000, guid: 0af705bf86854e345847cc41bda149d8, type: 2}
+  skillEffectPrefab: {fileID: 11400000, guid: 6ed98b9d3882cf34dbbc078221007c3b, type: 2}
+  talentEffectPrefab: {fileID: 11400000, guid: 909e6b967574c8b48aa3f6cbafa47621, type: 2}
+  eidolon1: {fileID: 11400000, guid: b077637e82a94c84d81bf1f70972ba82, type: 2}
+  eidolon2: {fileID: 11400000, guid: b1f3ae178193c674dabed3a8d3012860, type: 2}
+  basicScaling: 1
+  skillScaling: 2.2
+  ultimateScaling: 4.25
+  basicDmgSplit:
+  - 0.3
+  - 0.7
+  skillDmgSplit:
+  - 0.2
+  - 0.1
+  - 0.1
+  - 0.6

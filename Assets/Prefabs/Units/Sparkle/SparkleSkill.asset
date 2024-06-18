@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e7a2189c79256468c04499a190e7ae, type: 3}
+  m_Name: SparkleSkill
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  effectID: SparkleSkill
+  duration: 1
+  turnsLeft: 0
+  reduceDurationOnTurnStart: 0
+  removeOnTurnStart: 1
+  maxStacks: 1
+  currentStacks: 1
+  HPBoost: 0
+  flatHP: 0
+  DefBoost: 0
+  flatDef: 0
+  AtkBoost: 0
+  flatAtk: 0
+  weakenBoost: 0
+  spdBoost: 0
+  flatSpd: 0
+  critRate: 0
+  critDmg: 0
+  physicalDmgBoost: 0
+  fireDmgBoost: 0
+  lightningDmgBoost: 0
+  iceDmgBoost: 0
+  windDmgBoost: 0
+  quantumDmgBoost: 0
+  imagineryDmgBoost: 0
+  physicalResBoost: 0
+  fireResBoost: 0
+  lightningResBoost: 0
+  iceResBoost: 0
+  windResBoost: 0
+  quantumResBoost: 0
+  imagineryResBoost: 0
+  physicalResPenBoost: 0
+  fireResPenBoost: 0
+  lightningResPenBoost: 0
+  iceResPenBoost: 0
+  windResPenBoost: 0
+  quantumResPenBoost: 0
+  imagineryResPenBoost: 0
+  basicDmgBoost: 0
+  skillDmgBoost: 0
+  ultimateDmgBoost: 0
+  dotDmgBoost: 0
+  fuaDmgBoost: 0
+  breakDmgBoost: 0
+  dmgTaken: 0
+  physicalDmgTaken: 0
+  fireDmgTaken: 0
+  lightningDmgTaken: 0
+  iceDmgTaken: 0
+  windDmgTaken: 0
+  quantumDmgTaken: 0
+  imagineryDmgTaken: 0
+  basicDmgTaken: 0
+  skillDmgTaken: 0
+  ultimateDmgTaken: 0
+  dotDmgTaken: 0
+  fuaDmgTaken: 0
+  breakDmgTaken: 0
+  dmgMitigation: 0
